@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>st-panorama</Name>
+  <Repository>ghcr.io/ezring/st-panorama:latest</Repository>
+  <Registry>https://ghcr.io</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+
+  <Overview>
+  Static web container for mijofr's st-panorama. Done with ChatGPT.
+  </Overview>
+
+  <Category>MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:1701]/</WebUI>
+  <Support>https://github.com/ezring/st-panorama-docker</Support>
+  <Project>https://github.com/mijofr/st-panorama</Project>
+
+  <Config
+    Name="WebUI Port"
+    Target="80"
+    Default="1701"
+    Mode="tcp"
+    Description="WebUI Port"
+    Type="Port"
+    Display="always"
+    Required="true"
+    Mask="false"
+  />
+</Container>
