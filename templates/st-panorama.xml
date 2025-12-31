@@ -14,6 +14,7 @@
   <WebUI>http://[IP]:[PORT:1701]/</WebUI>
   <Support>https://github.com/ezring/st-panorama-docker</Support>
   <Project>https://github.com/mijofr/st-panorama</Project>
+  <Icon>https://raw.githubusercontent.com/ezring/st-panorama-docker/main/icon.png</Icon>
 
   <Config
     Name="WebUI Port"
